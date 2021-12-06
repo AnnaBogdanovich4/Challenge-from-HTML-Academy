@@ -1,0 +1,27 @@
+.slider1, .slider2{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.slider1 img{
+    width: 200px;
+    height: 200px;
+    border: antiquewhite 2px solid;
+}
+.slider1 button, .slider2 button{
+    padding: 20px;
+    border: antiquewhite 2px solid;
+    margin: 10px;
+}
+.slider1 #next-button, .slider2 #next-button{
+    background-color: rgb(250, 170, 66);
+}
+.slider1 #prev-button, .slider2 #prev-button{
+    background-color: rgb(127, 209, 59);
+}
+.slider2 img{
+    width: 250px;
+    height: 250px;
+    border: antiquewhite 2px solid;
+}
